@@ -12,9 +12,7 @@ for (let k = 0; k < 10; k++) {
 
    let qwe = 'https://prnt.sc/' + makeid();
 
-   function make() {
+   setTimeout(() => {
       link[k].href = qwe;
-   }
-
-   make();
+   }, 500);
 }
