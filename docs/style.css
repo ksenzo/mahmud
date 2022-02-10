@@ -1,0 +1,50 @@
+* {
+   padding: 0;
+   margin: 0
+}
+
+body {
+   width: 100vw;
+   height: 100vh;
+   background: linear-gradient(15deg, rgba(143, 86, 0, 0.788), rgba(90, 0, 173, 0.74)) no-repeat;
+}
+
+.mahmud__body {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 100px 15px 0 15px;
+}
+
+.mahmud_title {
+   text-align: center;
+   font-size: 60px;
+   color: black;
+   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+   line-height: 120%;
+   margin-bottom: 50px;
+}
+
+.mahmud_links {
+   display: flex;
+   flex-direction: column;
+}
+
+.mahmud_link {
+   font-size: 30px;
+   color: rgb(0, 0, 0);
+   line-height: 120%;
+   font-weight: bold;
+   text-decoration: none;
+   margin-bottom: 20px;
+   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+@media (max-width: 768px) {
+   .mahmud_title {
+      font-size: 30px;
+   }
+}
+
+
